@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Ángel Yepes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Menu -->
+    <nav class="navbar">
+        <section class="navbar-section">
+        <a href="index.html" class="menu-section">
+            <img src="assets/logo.png" class="menu-image">
+            <h2 class="menu-title">Miguel Ángel Yepes</h2>
+        </a>
+        <input type="checkbox" class="checkbox" id="toggle-menu">
+
+        <section class="menu-toggle" id="mobile-menu">
+            <section class="bar"></section>
+            <section class="bar"></section>
+            <section class="bar"></section>
+        </section>
+
+        <ul class="menu">
+            <li><a href="#about" class="href">Sobre mi</a></li>
+            <li><a href="#CV">CV</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        </section>
+    </nav>
+
+    <!-- Home -->
+    <section class="home-block">
+        <section class="home-block-section">
+            <h1 class="home-block-title">Hola! Soy Miguel Ángel Yepes</h1>
+            <p class="home-block-p">Estudiante de quinto trimestre de Análisis y desarrollo de software</p>
+            <a href="#portfolio" class="a">
+                <button class="home-block-button-2">
+                    Portafolio
+                </button>
+            </a>
+        </section>
+
+        <img src="assets/imagen1.png" class="home-block-img" img alt="">
+    </section>
+    
+    <!-- About -->
+    <section class="about-block" id="about">
+        <h2 class="about-block-title1">Ac<span class="franja1">erca de </span>mi</h2>
+        <p class="about-block-p1">En este apartado podrás encontrar información acerca de mis fortalezas y mi trayectoria profesional</p>
+        
+        <section class="about-block-section">
+
+            <section class="about-block-section-s1">
+                <h2 class="about-block-title1 t1">¿Quien soy?</h2>
+                <p class="about-block-p1 p1" >Soy estudiante del quinto trimestre de la tecnología Análisis y desarrollo de software, (ADSO), tecnología ofrecida por el Sena. Me desempeño muy bien en labores de programación web, tanto en desarrollo backend como front end, asi como gestión de base de datos y funciones que se puedan requerir en pseudocódigos como c#, Python y entre otros. 
+                    Así mismo, cuento con un número considerable de certificaciones y una publicación, por favor, siéntete libre de revisar mi hoja de vida para conocer más de mí!
+                </p>
+                <a href="#CV" class="a2">
+                    <button class="home-block-button hb1">
+                        CV
+                    </button>
+                </a>
+            </section>
+            
+            <section class="about-block-section-s2">
+                <h2 class="about-block-title1 t1">Mis fortalezas</h2>
+
+                <section class="section-skills">
+                    <section class="skill">
+                        <img src="assets/skill1.png" class="skill-img" alt="">
+                        <h3>Javascript</h3>
+                    </section>
+
+                    <section class="skill">
+                        <img src="assets/skill2.png" class="skill-img" alt="">
+                        <h3>Css</h3>
+                    </section>
+
+                    <section class="skill">
+                        <img src="assets/skill3.png" class="skill-img" alt="">
+                        <h3>Html</h3>
+                    </section>
+
+                    <section class="skill"> 
+                        <img src="assets/skill4.png" class="skill-img" alt="">
+                        <h3>Node</h3>
+                    </section>
+
+                    <section class="skill">
+                        <img src="assets/skill5.png" class="skill-img" alt="">
+                        <h3>Vue</h3>
+                    </section>
+
+                    <section class="skill">
+                        <img src="assets/skill6.png" class="skill-img" alt="">
+                        <h3>React</h3>
+                    </section>
+
+                    <section class="skill">
+                        <img src="assets/skill7.png" class="skill-img" alt="">
+                        <h3>Django</h3>
+                    </section>
+
+                    <section class="skill">
+                        <img src="assets/skill8.png" class="skill-img" alt="">
+                        <h3>MongoDb</h3>
+                    </section>
+
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- CV -->
+    <section class="CV-block" id="CV">
+        <section class="CV-block-section">
+            <h2 class="about-block-title1 t2">Hoja<span class="franja2"> de vida </span></h2>
+            <p class="about-block-p1 p2">Para acceder a mi hoja de vida dale click al botón de la derecha</p>
+        </section>
+        
+        <button onclick="redireccionar('https://drive.google.com/file/d/1GsdDT-FI8R7YFX09TVuQxAglAvSZenxv/view?usp=sharingg')" class="home-block-button b1">
+            Hoja de vida
+        </button>
+
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio-block" id="portfolio">
+        <h2 class="about-block-title1">Por<span class="franja1">tafo</span>lio</h2>
+        <p class="about-block-p1 pp1">En este apartado podrás encontrar algunos de mis proyectos realizados para clientes o de manera personal</p>
+       
+        <section class="portfolio-block-section">
+            <section class="portfolio-block-section1">
+                <section class="portfolio-img-container">
+                    <img src="assets/portfolio1.png" class="portfolio-img" alt="" onclick="redireccionar('http://www.nativocampestre.com/')">
+                </section>
+            </section>
+
+            <section class="portfolio-block-section2">
+                <h3 class="portfolio-title">
+                    Nativo campestre
+                </h3>
+                <p class="portfolio-p">
+                    Esta fue una página desarrollada para posibilitar el marketing digital de la parcelación nativo campestre, la cual se encuentra ubicada en el municipio de el Retiro, en Antioquia
+                </p>
+                <button class="home-block-button portfolio-button" onclick="redireccionar('http://www.nativocampestre.com/')">
+                    Ir a la página
+                </button>
+            </section>
+        </section>
+
+        <section class="portfolio-block-section">
+            <section class="portfolio-block-section1">
+                <section class="portfolio-img-container">
+                    <img src="assets/portfolio2.png" class="portfolio-img" alt="" onclick="redireccionar('https://miyesy.netlify.app')">
+                </section>
+            </section>
+            
+            <section class="portfolio-block-section2">
+                <h3 class="portfolio-title">
+                    Miyesy
+                </h3>
+                <p class="portfolio-p">
+                    Página desarrollada a modo de práctica personal para una empresa ficticia, a la cual se le dio el nombre de Miyesy    
+                </p>
+                <button class="home-block-button portfolio-button" onclick="redireccionar('https://miyesy.netlify.app')">
+                    Ir a la página
+                </button>
+            </section>
+        </section>
+
+        <section class="portfolio-block-section">
+            <section class="portfolio-block-section1">
+                <section class="portfolio-img-container">
+                    <img src="assets/portfolio3.png" class="portfolio-img" alt="" onclick="redireccionar('https://github.com/Miguel-Angel-Yepes/CRUD-C-sharp.git')">
+                </section>
+            </section>
+                
+            <section class="portfolio-block-section2">
+                <h3 class="portfolio-title">
+                    CRUD C#
+                </h3>
+                <p class="portfolio-p">
+                    CRUD para un parqueadero desarrollado en C#, implementando conexión a base de datos sql y exportanción e importación de varias librerías
+                </p>
+                <button class="home-block-button portfolio-button" onclick="redireccionar('https://github.com/Miguel-Angel-Yepes/CRUD-C-sharp.git')">
+                    Repositorio
+                </button>
+            </section>
+        </section>
+
+        <section class="portfolio-block-section">
+            <section class="portfolio-block-section1">
+                <section class="portfolio-img-container">
+                    <img src="assets/portfolio4.png" class="portfolio-img" alt="" onclick="redireccionar('https://github.com/Miguel-Angel-Yepes/Juego-triqui-Miguel-y-Yerson.git')">
+                </section>
+            </section>
+                    
+            <section class="portfolio-block-section2">
+                <h3 class="portfolio-title">
+                   Triqui
+                </h3>
+                <p class="portfolio-p">
+                    Juego de tic tac toe desarrollado en javascript, a modo de práctica personal y propuesta didáctica
+                </p>
+                <button class="home-block-button portfolio-button" onclick="redireccionar('https://github.com/Miguel-Angel-Yepes/Juego-triqui-Miguel-y-Yerson.git')">
+                    Repositorio
+                </button>
+            </section>
+        </section>
+
+        <section class="portfolio-block-section">
+            <section class="portfolio-block-section1">
+                <section class="portfolio-img-container">
+                    <img src="assets/portfolio3.png" class="portfolio-img" alt="" onclick="redireccionar('https://github.com/Miguel-Angel-Yepes/boceto-portafolio-react.git')">
+                </section>
+            </section>
+                        
+            <section class="portfolio-block-section2">
+                <h3 class="portfolio-title">
+                    portafolio react
+                 </h3>
+                 <p class="portfolio-p">
+                    Primer boceto de un portafolio web, el cual se desarrolló en el framework React.js. Este trabajo se realizó a modo de práctica personal para manejo de React
+                </p>
+                 <button class="home-block-button portfolio-button" onclick="redireccionar('https://github.com/Miguel-Angel-Yepes/boceto-portafolio-react.git')">
+                     Repositorio
+                 </button>
+            </section>
+        </section>
+     </section>
+
+     <!-- Contact -->
+    <section class="contact-section" id="contact">
+        <h2 class="about-block-title1">Co<span class="franja1">ntac</span>to</h2>
+        <p class="about-block-p1">Contactame llenando el formulario de abajo, te responderé con la mayor prontitud posible!</p>
+        <form action="https://formsubmit.co/mayepes005@gmail.com" method="POST" class="form">
+            <img src="assets/78787.jpg" class="imgForm" alt="">
+            <label class="about-block-p1 p3" for="nombre">Nombre</label>
+            <input class="input" type="text" name="name" required>
+
+            <label class="about-block-p1 p3" for="email">Correo electrónico</label>
+            <input class="input" type="email" name="email" required>
+
+            <label class="about-block-p1 p3" for="subject">Asunto</label>
+            <input class="input" type="text" name="subject" required>
+
+            <label class="about-block-p1 p3" for="comments">Comentarios</label>
+            <textarea class="input" name="comments" cols="15" rows="5" required></textarea>
+
+            <input type="submit" value="Enviar" class="home-block-button b3" >
+
+            <input type="hidden" name="_next" value="http://localhost:8000/">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <section class="footer-container">
+
+            <section class="footer-section1">
+                <img src="assets/logo.png" class="footer-logo" alt="">
+            </section>
+
+            <section class="footer-section2">
+                <h2 class="footer-title">Miguel Ángel Yepes</h2>
+                <section class="franja3">
+                    <section class="franja3-1"></section>
+                    <section class="franja3-2"></section>
+                    <section class="franja3-1"></section>
+                </section> 
+                <section class="icon-section">
+                    <img src="./assets/icon1.png" alt="" class="icon" onclick="redireccionar('http://wa.me/573193099340')"> 
+                    <img src="./assets/icon2.png" alt="" class="icon" onclick="redireccionar('https://www.instagram.com/miguel_yepesr?igsh=OXFodzRvdzNzZnM4')">
+                    <img src="./assets/icon3.png" alt="" class="icon" onclick="redireccionar('https://www.facebook.com/profile.php?id=61556437293720&mibextid=ZbWKwL')">
+                </section>
+            </section>
+            
+            <section class="footer-section3">
+                <section class="footer-section">
+                    <img src="assets/icon5.png" class="img-footer" alt="">
+                    <h3 class="footerText">Av. 42 #53-74</h3>
+                </section>
+                <section class="footer-section">
+                    <img src="assets/icon4.png" class="img-footer im" alt="">
+                    <h3 class="footerText">+57 3193099340</h3>
+                </section>
+                <section class="footer-section">
+                    <img src="assets/icon6.png" class="img-footer" alt="">
+                    <h3 class="footerText">mayepes005@gmail.com</h3>
+                </section>
+            </section>
+
+        </section>
+            
+            <section class="copyrightSection">
+                <p class="footerText ft1">Sitio elaborado por miguel Ángel Yepes</p>
+        </section>
+
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
